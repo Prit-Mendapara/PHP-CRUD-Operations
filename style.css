@@ -1,0 +1,212 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: sans-serif;
+	background-color: #EEE;
+	user-select: none;
+	margin: 0;
+}
+
+h1 {
+	font-weight: normal;
+	color: #333;
+}
+
+.main-head {
+	text-align: center;
+	margin-top: 11em;
+	margin-left: 5em;
+	margin-right: 5em;
+	border-bottom: solid;
+	color: #333;
+}
+
+#navbar {
+  	background-color: #333;
+  	position: fixed;
+  	top: -50px;
+  	width: 100%;
+  	display: block;
+  	transition: top 0.5s;
+}
+
+#navbar a {
+  	float: right;
+  	display: block;
+  	color: #f2f2f2;
+  	text-align: center;
+  	padding: 15px;
+  	text-decoration: none;
+  	font-size: 17px;
+}
+
+#navbar a:hover {
+  	background-color: #ddd;
+  	color: black;
+}
+
+input[type=text] 
+{
+  width: 120px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 2px;
+  font-size: 16px;
+  background-repeat: no-repeat;
+  margin-top: 0.7em;
+  margin-left: 1em;
+  padding: 5px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus 
+{
+  width: 40%;
+}
+
+.big-head {
+	font-family: serif;
+	font-size: 15vh;
+	text-align: center;
+}
+
+.quote-block {
+	margin-left: 15em;
+	margin-right: 15em;
+	margin-top: 5em;
+	border-radius: 15px;
+	padding: 25px;
+	background-color: #fff;
+}
+
+.quote-block img {
+	margin-left: 1em;
+	margin-right: 1em;
+	cursor: pointer;
+}
+
+footer {
+  box-shadow: 0px 0px 30px 5px grey;
+  width: 90%;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 6em;
+  margin-top: 5em;
+}
+
+.follow {
+  padding: 20px;
+  width: 72px;
+  border-radius: 5em;
+  text-align: center;
+  text-decoration: none;
+  margin: 15px 12px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #dd4b39;
+  color: white;
+}
+.fa-whatsapp {
+  background: #25D366;
+  color: white;
+}
+
+footer h1 {
+  border-bottom: solid;
+  padding: 10px;
+  color: #333;
+}
+
+footer h2 {
+  font-weight: normal;
+  font-family: serif;
+  color: #333;
+  text-align: center;
+  border-top: double;
+  border-bottom: double;
+  padding: 10px;
+  text-transform: uppercase;
+  width: 70%;
+  border-radius: 15px;
+  cursor: help;
+}
+
+@media screen and (max-width: 600px) {
+  .big-head {
+  	margin-top: 1em;
+  	font-size: 6vh;
+  }
+  .main-head {
+    text-align: center;
+    margin-top: 25em;
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: 11px;
+  }
+  .scroll {
+  	width: 100px;
+    margin-bottom: 5em;
+  }
+  .sub-page {
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-top: 3em;
+  }
+  .sub-page h2 {
+  	font-size: 20px;
+  }
+  .sub-page p {
+  	text-align: justify;
+  	line-height: 1.5;
+  }
+  .sub-page img {
+	margin-left: 1em;
+	margin-right: 1em;
+	cursor: pointer;
+	width: 30px;
+  }
+
+  #navbar {
+    top: -100px;
+    width: 100%;
+  }
+
+  #navbar a {
+      padding: 10px;
+      font-size: 13.4px;
+  }
+
+  input[type=text] 
+  {
+    width: 100px;
+    border-radius: 2px;
+    font-size: 13.4px;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+  }
+  input[type=text]:focus 
+  {
+    width: 88%;
+  }
+
+  footer {
+    margin-top: 1em;
+    padding: 10px;
+  }
+}
